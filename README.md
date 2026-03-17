@@ -1,7 +1,9 @@
 
 # 3-2-1 Backup Strategy
 
-The 3-2-1 Backup Strategy[^1] involves having 3 copies, 2 two different media, and one off-site copy. If you want to capture historical changes to the data, you need to do ZFS replication. That means having 2 NAS. The second media can be Bluray for things that matter more.
+The 3-2-1 Backup Strategy[^1] involves having 3 copies, 2 different media types, and one off-site copy. If you want to capture historical changes to the data, you need to do ZFS replication. That means having 2 NAS. The second media type can be Blu-ray, tape drives or the cloud.
+
+Things should be categorized by order of importance. How valuable is something to you, many copies exist in the world, and how easily could you get a copy of it. Probably not worth it to backup that iso of TrueNAS, but it's important to backup family memories.
 
 ## Components
 
@@ -95,6 +97,8 @@ wakeonlan {mac_address}
 ```
 
 *ZFS*
+
+ZFS has snapshots, so you can go back in time like OSX Time Machine if you accidentally delete or modify something you shouldn't have. These snapshots can also be replicated between machines.
 
 1. Pray that AI bubble bursts and hard drive prices come down in price.
 
