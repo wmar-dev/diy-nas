@@ -1,10 +1,12 @@
 ## Components
 
-- Jonsbo N3
-- CWWK NAS-N150-8P CW-AT-10G-8P-N150
-- Corsair SF750
-- Crucial 8 GB RAM
-- Crucial 1 TB NVMe
+| Component | Model |
+|-----------|-------|
+| Case | Jonsbo N3 |
+| Motherboard | CWWK NAS-N150-8P CW-AT-10G-8P-N150 |
+| Power Supply | Corsair SF750 |
+| RAM | Crucial 8 GB |
+| Storage | Crucial 1 TB NVMe |
 
 The build of the NAS should be around the number of drive bays and how you want the ZFS pool setup. For my case, I wanted 8 drive bays and to do mirrored vdevs and keep adding pairs as I expand. Mirrored vdevs, because it takes too long to rebuild if you are using RAID-Z1 or RAID-Z2.
 
