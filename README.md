@@ -5,6 +5,8 @@ The 3-2-1 Backup Strategy[^1] involves having 3 copies, 2 different media types,
 
 Things should be categorized by order of importance. How valuable is something to you, many copies exist in the world, and how easily could you get a copy of it. Probably not worth it to backup that iso of TrueNAS, but it's important to backup family memories.
 
+Another backup strategy used by Linus Torvalds is to upload things to the public and let the world mirror it if it is valuable[^2] .
+
 ## Components
 
 | Component | Model |
@@ -14,6 +16,7 @@ Things should be categorized by order of importance. How valuable is something t
 | Power Supply | Corsair SF750 |
 | RAM | Crucial 8 GB |
 | Storage | Crucial 1 TB NVMe |
+| System Fans | Noctua NF-A8 PWM (2) |
 
 The build of the NAS should be around the number of drive bays and how you want the ZFS pool setup. For my case, I wanted 8 drive bays and to do mirrored vdevs and keep adding pairs as I expand. Mirrored vdevs, because it takes too long to rebuild if you are using RAID-Z1 or RAID-Z2.
 
@@ -103,3 +106,4 @@ ZFS has snapshots, so you can go back in time like OSX Time Machine if you accid
 1. Pray that AI bubble bursts and hard drive prices come down in price.
 
 [^1]: [The 3-2-1 Backup Strategy of Data Protection](https://www.backblaze.com/blog/the-3-2-1-backup-strategy/).
+[^2]: https://blog.kiney.de/en/blog/linus-backup-philosophie/
