@@ -1,3 +1,8 @@
+
+# 3-2-1 Backup Strategy
+
+The 3-2-1 Backup Strategy[^1] involves having 3 copies, 2 two different media, and one off-site copy. If you want to capture historical changes to the data, you need to do ZFS replication. That means having 2 NAS. The second media can be Bluray for things that matter more.
+
 ## Components
 
 | Component | Model |
@@ -37,7 +42,6 @@ Normally I buy Seasonic, but I couldn't find a SFX form factor, so I went with C
 *Motherboard*
 
 ![Motherboard](images/motherboard)
-
 
 1. Push in the back panel plate until it snaps into place. The protrusions should be outside the case.
 2. Add memory to motherboard.
@@ -93,3 +97,5 @@ wakeonlan {mac_address}
 *ZFS*
 
 1. Pray that AI bubble bursts and hard drive prices come down in price.
+
+[^1]: [The 3-2-1 Backup Strategy of Data Protection](https://www.backblaze.com/blog/the-3-2-1-backup-strategy/).
