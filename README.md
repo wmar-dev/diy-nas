@@ -12,7 +12,7 @@ The build of the NAS should be around the number of drive bays and how you want 
 
 I wanted to keep a small form factor, so that led to choosing an ITX case. The NAS-N150-8P has been popular, so I opted for the N150 version since it was the only thing in stock. I don't plan on heavy VM usage. If I am going to do VMs, I could build another machine for that. 
 
-I wanted to max out the RAM, but I waited too long and RAM prices shot up and went out of stocks. Eventually got my hands on 8 gigabytes of Crucial RAM and SSD. I chose Crucial, because I was worried about compatibility issues.
+I wanted to max out the RAM, but I waited too long and RAM prices shot up and everything went out of stock. Eventually got my hands on 8 gigabytes of Crucial RAM and SSD. I chose Crucial, because I was worried about compatibility issues.
 
 Normally I buy Seasonic, but I couldn't find a SFX form factor, so I went with Corsair, which is 80 PLUS® Platinum Certified High Performance. High efficiency means less fan noise.
 
