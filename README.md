@@ -26,6 +26,10 @@ I wanted to max out the RAM, but I waited too long and RAM prices shot up and ev
 
 Normally I buy Seasonic, but I couldn't find a SFX form factor, so I went with Corsair, which is 80 PLUS® Platinum Certified High Performance. High efficiency means less fan noise.
 
+*Hard Drives*
+
+Backblaze reports the failure rates of HGST, Seagate, Toshiba, and WDC hard drives[^3]. Historically, hard drive failures would follow a bathtub curve. They either fail earlier or fail late. Now it is somewhat different[^4].
+
 ## Bootable USB Stick
 
 1. Find or purchase a USB stick that has a 4 GB or greater capacity.
@@ -40,7 +44,7 @@ Normally I buy Seasonic, but I couldn't find a SFX form factor, so I went with C
 1. Remove 4 screws to remove top of Jonsbo N3 case using supplied hex key.
 2. Remove 2 thumbscrews to remove bottom fan panel.
 3. Remove 4 screws with PH1 head to remove PSU bracket.
-4. Attach PSU to bracket with 6 supplied screws with PSU
+4. Attach PSU to bracket with 6 supplied screws with the PSU.
 5. Reattach the PSU bracket with the 4 screws from before.
 6. Push in the power connector into the PSU.
 
@@ -63,7 +67,7 @@ Normally I buy Seasonic, but I couldn't find a SFX form factor, so I went with C
 11. Plug in ATX power connector to backpanel.
 12. Plug in fans.
 13. Screw back panel back in with thumbscrews.
-14. Flip power on power supply on since the case will be enclosed.
+14. Turn on the power supply since the case will be enclosed.
 15. Screw top back on with 4 screws using supplied hex wrench.
 
 ## Installation
@@ -77,7 +81,7 @@ Normally I buy Seasonic, but I couldn't find a SFX form factor, so I went with C
 *Installation*
 1. Turn on power supply.
 2. Close case.
-3. Plug.
+3. Plug in the power cable.
 4. Stick in USB stick.
 5. Turn on.
 6. Follow instructions.
@@ -107,3 +111,5 @@ ZFS has snapshots, so you can go back in time like OSX Time Machine if you accid
 
 [^1]: [The 3-2-1 Backup Strategy of Data Protection](https://www.backblaze.com/blog/the-3-2-1-backup-strategy/).
 [^2]: https://blog.kiney.de/en/blog/linus-backup-philosophie/
+[^3]: [Backblaze Drive Stats for 2025](https://www.backblaze.com/blog/backblaze-drive-stats-for-2025/)
+[^4]: [Are Hard Drives Getting Better? Let’s Revisit the Bathtub Curve](https://www.backblaze.com/blog/are-hard-drives-getting-better-lets-revisit-the-bathtub-curve/) 
