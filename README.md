@@ -107,7 +107,7 @@ wakeonlan {mac_address}
 
 ZFS has snapshots, so you can go back in time like OSX Time Machine if you accidentally delete or modify something you shouldn't have. These snapshots can also be replicated between machines.
 
-1. Pray that AI bubble bursts and hard drive prices come down in price.
+1. Pray that the AI bubble bursts and hard drive prices come down.
 
 [^1]: [The 3-2-1 Backup Strategy of Data Protection](https://www.backblaze.com/blog/the-3-2-1-backup-strategy/).
 [^2]: https://blog.kiney.de/en/blog/linus-backup-philosophie/
